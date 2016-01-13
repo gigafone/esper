@@ -17,18 +17,18 @@
 			<groupId>com.espertech</groupId>
 			<artifactId>example-terminalsvc-mdb</artifactId>
 			<version>1.0</version>
-     		</dependency>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-ear-plugin</artifactId>
-			  	<configuration>
+				<configuration>
 				  <archive>
-				    <manifestEntries>
-				      <Built-By>EsperTech</Built-By>
-				    </manifestEntries>
+					<manifestEntries>
+					  <Built-By>EsperTech</Built-By>
+					</manifestEntries>
 				  </archive>
 				</configuration>
 			</plugin>
@@ -40,7 +40,7 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
-    		<plugin>
+			<plugin>
 				<artifactId>maven-antrun-plugin</artifactId>
 				<executions>
 				  <execution>
@@ -55,7 +55,7 @@
 					</goals>
 				  </execution>
 				</executions>
-			  </plugin>
-      </plugins>
+			</plugin>
+		</plugins>
 	</build>
 </project>
