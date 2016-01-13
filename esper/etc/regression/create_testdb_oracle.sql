@@ -1,4 +1,6 @@
-// Cut & paste the below into the Oracle
+/*
+Cut & paste the below into the Oracle
+*/
 
 drop table "test"."mytesttable";
 
@@ -10,7 +12,7 @@ create table "test"."mytesttable"(
 	mybool char(1),
 	mynumeric numeric(8),
 	mydecimal numeric(8),
-	mydouble double precision,	
+	mydouble double precision,
 	myreal float
 );
 
@@ -26,5 +28,3 @@ insert into "test"."mytesttable" values (7, 70, 'G', 'S', 'T', null, 700, 7.2, 7
 insert into "test"."mytesttable" values (8, 80, 'H', 'R', 'T', null, 800, 8.2, 8.3);
 insert into "test"."mytesttable" values (9, 90, 'I', 'Q', 'T', null, 900, 9.2, 9.3);
 insert into "test"."mytesttable" values (10, 100,  'J', 'P', 'T', null, 1000, 10.2, 10.3);
-
-	
