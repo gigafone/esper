@@ -9,6 +9,7 @@ set -eu
 # (Includes local Esper build results, if present)
 ESPER="../../esper"
 LCP="$ESPER/target/classes"\
+":target/classes"\
 ":$ESPER/lib/commons-logging-1.1.3.jar"\
 ":$ESPER/lib/cglib-nodep-3.1.jar"\
 ":$ESPER/lib/antlr-runtime-4.1.jar"\
@@ -19,6 +20,7 @@ LCP="$ESPER/target/classes"\
 CP="etc:bin"\
 ":$LCP"\
 ":lib/esper-5.3.0.jar"\
+":lib/esper_examples_benchmark-5.3.0.jar"\
 ":lib/commons-logging-1.1.3.jar"\
 ":lib/cglib-nodep-3.1.jar"\
 ":lib/antlr-runtime-4.1.jar"\
